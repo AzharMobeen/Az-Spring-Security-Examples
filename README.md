@@ -1,12 +1,10 @@
-# Simple-Spring-Security-api
-It's a simple spring boot project in which I'm using spring security
+# Az-Spring-Security-Examples
+Spring Boot api with Spring security four different examples from scratch. I tried to make these examples as simple as possible.
 
-* Create simple spring boot project from https://start.spring.io/ and add only Web and Security module
-* Then open this project into any IDE as maven project
-* Create SpringSecurityConfigurer class and extends WebSecurityConfigurerAdaptor
-* Now override configure method with (custom class) myUserDetailsService class reference.
-* Create MyUserDetailsService class and impletment UserDetailsService class. 
-* Now overirde loadUserByUsername method in which you can configure inmemory user object.
-* Run as spring boot application and hit bellow url:
-* [localhost:8080/hello](http://localhost:8080/hello)
-* username/password [Az/Az]
+* I haved created 4 spring boot api's with spring security.
+* First Example is simple and default login by spring security in which I'm using inmemory user. 
+* Please check README file for each example.
+
+
+
+
