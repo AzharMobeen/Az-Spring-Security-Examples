@@ -1,0 +1,4 @@
+com\az\config\SpringSecurityConfigurer.class
+com\az\controllers\UserController.class
+com\az\services\MyUserDetailsService.class
+com\az\config\SimpleSpringSecurityApiApplication.class
