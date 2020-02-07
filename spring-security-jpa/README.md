@@ -1,4 +1,4 @@
-# Simple-Spring-Security-api (7th Example)
+# Simple-Spring-Security-api (6th Example)
 It's a simple spring boot project in which I'm using spring security with JPA
 
 * I have added MySQL DataBase server,Spring data JPA dependencies other than web and security
