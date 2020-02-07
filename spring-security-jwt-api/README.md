@@ -1,4 +1,5 @@
-#Spring-Security-JW	T-Api
+# Spring-Security-JWT-Api (7th Example)
+
 It's a simple spring boot project in which I'm using spring security with JWT
 
 * Create simple spring boot project from https://start.spring.io/ and add only Web and Security module
@@ -21,11 +22,11 @@ It's a simple spring boot project in which I'm using spring security with JWT
 * JwtUtil will handle jwt related things.
 * Now need to override bellow method for /authenticate uri:
 
-	@Override
-	protected void configure(HttpSecurity http) throws Exception {		
-		http.csrf().disable().authorizeRequests().antMatchers("/authentication").permitAll().anyRequest().authenticated().
-		and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);					
-	}
+		@Override
+		protected void configure(HttpSecurity http) throws Exception {		
+			http.csrf().disable().authorizeRequests().antMatchers("/authentication").permitAll().anyRequest().authenticated().
+			and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);					
+		}
 * it will allow to access /authentication uri but all others needs to be provide username and password.
 * In latest Spring Boot version we cann't autowired AuthenticationManager
 	
