@@ -1,4 +1,4 @@
-# Simple-Spring-Security-api
+# Simple-Spring-Security-api (2nd Example)
 It's a simple spring boot project in which I'm using spring security
 
 * Create simple spring boot project from https://start.spring.io/ and add only Web and Security module
