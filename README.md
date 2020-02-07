@@ -9,7 +9,7 @@ Spring Boot api with Spring security five different examples from scratch. I tri
 * [5th Example is related to spring security authentication and authorization using database without default schema and default users](/database-spring-security-II)
 * [6th Example is related to spring security authentication and authorization using JPA](/spring-security-jpa)
 * [7th Example is for JWT (JSON web tokens) with spring security.](/spring-security-jwt-api)
-* [Six Example is for AOuth 2 with Spring Security.]()
+* [8th Example is for AOuth 2 with Spring Security.](/spring-security-oAuth-2.0)
 * Please check README file for each example.
 
 
