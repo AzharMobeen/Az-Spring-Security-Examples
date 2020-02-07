@@ -9,7 +9,7 @@
 * Try with changed username and password.
 
 ## Next Example:
-* In second example I will use inMemory List of users for spring security. 
+* [In second example I will use inMemory List of users for spring security.](/InMemory-spring-security)
 
 
 
