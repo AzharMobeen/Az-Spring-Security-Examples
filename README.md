@@ -2,7 +2,7 @@
 Spring Boot api with Spring security five different examples from scratch. I tried to make these examples as simple as possible.
 
 * I haved created five spring boot api's with spring security.
-* First Example is default spring security by adding spring security dependency.
+* [First Example is default spring security by adding spring security dependency.](/simple-spring-security)
 * Second Example is simple and default login by spring security in which I'm using inmemory user.
 * Third Example is related to inMemory user with role base authorization.
 * Fourth Example is related to spring security authentication and authorization using database.
