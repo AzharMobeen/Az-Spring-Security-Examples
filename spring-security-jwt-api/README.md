@@ -80,3 +80,7 @@ It's a simple spring boot project in which I'm using spring security with JWT
 		}
 * Thats it :)
 
+
+### Next Example:
+* [In 8th example I will Spring-Security with AOuth 2.](/spring-security-oAuth-2.0)
+
