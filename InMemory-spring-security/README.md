@@ -7,17 +7,17 @@ It's a simple spring boot project in which I'm using spring security
 * For this we need to Create SpringSecurityConfigurer class and extends WebSecurityConfigurerAdaptor.
 * Now override configure method for Authentication.
 	
-	@Override
-	protected void configure(AuthenticationManagerBuilder auth) throws Exception {	
-		auth.inMemoryAuthentication()
-		.withUser("Az").password("Az").roles("USER")
-		.and()
-		.withUser("Adi").password("Adi").roles("ACCOUNT")
-		.and()
-		.withUser("Shah").password("Shah").roles("ADMIN")
-		.and()
-		.withUser("Mughal").password("Mughal").roles("ADMIN");
-	}	
+		@Override
+		protected void configure(AuthenticationManagerBuilder auth) throws Exception {	
+			auth.inMemoryAuthentication()
+			.withUser("Az").password("Az").roles("USER")
+			.and()
+			.withUser("Adi").password("Adi").roles("ACCOUNT")
+			.and()
+			.withUser("Shah").password("Shah").roles("ADMIN")
+			.and()
+			.withUser("Mughal").password("Mughal").roles("ADMIN");
+		}	
 
 * Run as spring boot application and hit bellow url:
 * [localhost:8080/hello](http://localhost:8080/hello)
