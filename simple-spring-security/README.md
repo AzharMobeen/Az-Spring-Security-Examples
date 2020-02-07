@@ -1,4 +1,4 @@
-# Simple Spring Security Example (First Example)
+# Simple Spring Security Example (1st Example)
 
 * Just add Spring security maven dependency it will automatically apply spring security authentication and authorization to all the uri's.
 * you can login with default username and password user/(when you run application password will be generated in console)
