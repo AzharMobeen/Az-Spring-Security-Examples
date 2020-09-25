@@ -1,5 +1,5 @@
 # Az-Spring-Security-Examples
-Spring Boot api with Spring security five different examples from scratch. I tried to make these examples as simple as possible.
+Spring Boot api with Spring security more than five different examples from scratch. I tried to make these examples as simple as possible.
 
 * I haved created bellow examples for spring boot api's with spring security.
 * [1st Example is default spring security by adding spring security dependency.](/simple-spring-security)
